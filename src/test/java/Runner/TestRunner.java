@@ -1,0 +1,15 @@
+package Runner;
+// Auth by Nirmal Gunarathna
+
+import com.sun.org.apache.xalan.internal.xsltc.runtime.AbstractTranslet;
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+import cucumber.api.testng.AbstractTestNGCucumberTests;
+import org.junit.runner.RunWith;
+
+
+
+@RunWith(Cucumber.class)
+@CucumberOptions(features = "G:\\QA Project\\Android Hub\\Cucumber_Automation\\Android-TMS-Automation\\src\\test\\java\\Features",format = {"json:target/cucumber.json","html:target/site/cucumber-pretty"},glue = "Steps")
+public class TestRunner extends AbstractTestNGCucumberTests {
+}

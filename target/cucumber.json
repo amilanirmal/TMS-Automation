@@ -1,0 +1,2997 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# Auth by Nirmal Gunarathna"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4579915889,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AndroidTMSdefs.InitializeTest()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Add Device model",
+        "description": "",
+        "id": "add-device-model;add-device-model;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 712735982,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to URL \"http://192.168.1.114:8085\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://192.168.1.114:8085",
+                  "offset": 19
+                }
+              ],
+              "location": "AndroidTMSdefs.iNavigateToURL(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1385572252,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter the username \"nirmal1\" with id of username \"userName\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nirmal1",
+                  "offset": 22
+                },
+                {
+                  "val": "userName",
+                  "offset": 52
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterTheUsernameWithIdOfUsername(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1002745246,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the password \"Password@123\" with id of password \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password@123",
+                  "offset": 22
+                },
+                {
+                  "val": "password",
+                  "offset": 57
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterThePasswordWithIdOfPassword(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1492489421,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click Login button with id \"//button[@class\u003d\u0027button\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//button[@class\u003d\u0027button\u0027]",
+                  "offset": 30
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickLoginButtonWithId(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1092831714,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on TMS on link \"//img[@src\u003d\u0027/assets/img/terminal_management-01.svg\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//img[@src\u003d\u0027/assets/img/terminal_management-01.svg\u0027]",
+                  "offset": 24
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickOnTMSOnLink(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8439869,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I get error message \"//div[@class\u003d\u0027msg-panel error-login-msg\u0027]//ul[@class\u003d\u0027errorMessage\u0027]\" testcase id \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//div[@class\u003d\u0027msg-panel error-login-msg\u0027]//ul[@class\u003d\u0027errorMessage\u0027]",
+                  "offset": 21
+                },
+                {
+                  "val": "1",
+                  "offset": 104
+                }
+              ],
+              "location": "AndroidTMSdefs.iGetErrorMessageTestcaseId(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2290968060,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on side section dropdwon bar with xpath \"//img[@src\u003d\u0027resources/assets/image/icons/drop_down.svg\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//img[@src\u003d\u0027resources/assets/image/icons/drop_down.svg\u0027]",
+                  "offset": 49
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickOnSideSectionDropdwonBarWithXpath(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1315124166,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on Terminal section link with xpath \"//div[@class \u003d\u0027section-list-wrapper expanded fadein\u0027]//form[@id\u003d\u0027sectionlstform\u0027]//ul[@class\u003d\u0027section-list\u0027]/li[text()\u003d\u0027Config Section\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//div[@class \u003d\u0027section-list-wrapper expanded fadein\u0027]//form[@id\u003d\u0027sectionlstform\u0027]//ul[@class\u003d\u0027section-list\u0027]/li[text()\u003d\u0027Config Section\u0027]",
+                  "offset": 45
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickOnTerminalSectionLinkWithXpath(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1939395339,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on side section bar \"Currency Management\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Currency Management",
+                  "offset": 29
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickOnSideSectionBar(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1148733621,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on add  mark for add application version with xpath \"//div[@class\u003d\u0027round-btn f-right\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//div[@class\u003d\u0027round-btn f-right\u0027]",
+                  "offset": 61
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickOnAddMarkForAddApplicationVersionWithXpath(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1020049784,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter currency code \"\" with id \"acurrencycode\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 23
+                },
+                {
+                  "val": "acurrencycode",
+                  "offset": 34
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterCurrencyCodeWithId(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 690083788,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter alpha code \"\" with id \"aalpha2code\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 20
+                },
+                {
+                  "val": "aalpha2code",
+                  "offset": 31
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterAlphaCodeWithId(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67190798,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter currency descrption \"LKR\" id \"adescription\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "LKR",
+                  "offset": 29
+                },
+                {
+                  "val": "adescription",
+                  "offset": 38
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterCurrencyDescrptionId(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55442323,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter exponent \"144\" with id \"aexponent\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "144",
+                  "offset": 18
+                },
+                {
+                  "val": "aexponent",
+                  "offset": 32
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterExponentWithId(String,String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85604953,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click enter button to add currency \"addbtn\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "addbtn",
+                  "offset": 38
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickEnterButtonToAddCurrency(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2598249075,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AndroidTMSdefs.InitializeTest()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Add Device model",
+        "description": "",
+        "id": "add-device-model;add-device-model;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3292871400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to URL \"http://192.168.1.114:8085\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://192.168.1.114:8085",
+                  "offset": 19
+                }
+              ],
+              "location": "AndroidTMSdefs.iNavigateToURL(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2504307460,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter the username \"nirmal1\" with id of username \"userName\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nirmal1",
+                  "offset": 22
+                },
+                {
+                  "val": "userName",
+                  "offset": 52
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterTheUsernameWithIdOfUsername(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1372608388,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the password \"Password@123\" with id of password \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password@123",
+                  "offset": 22
+                },
+                {
+                  "val": "password",
+                  "offset": 57
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterThePasswordWithIdOfPassword(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 837240796,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click Login button with id \"//button[@class\u003d\u0027button\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//button[@class\u003d\u0027button\u0027]",
+                  "offset": 30
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickLoginButtonWithId(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1100226685,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on TMS on link \"//img[@src\u003d\u0027/assets/img/terminal_management-01.svg\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//img[@src\u003d\u0027/assets/img/terminal_management-01.svg\u0027]",
+                  "offset": 24
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickOnTMSOnLink(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7339946,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I get error message \"//div[@class\u003d\u0027msg-panel error-login-msg\u0027]//ul[@class\u003d\u0027errorMessage\u0027]\" testcase id \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//div[@class\u003d\u0027msg-panel error-login-msg\u0027]//ul[@class\u003d\u0027errorMessage\u0027]",
+                  "offset": 21
+                },
+                {
+                  "val": "1",
+                  "offset": 104
+                }
+              ],
+              "location": "AndroidTMSdefs.iGetErrorMessageTestcaseId(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3328978974,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on side section dropdwon bar with xpath \"//img[@src\u003d\u0027resources/assets/image/icons/drop_down.svg\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//img[@src\u003d\u0027resources/assets/image/icons/drop_down.svg\u0027]",
+                  "offset": 49
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickOnSideSectionDropdwonBarWithXpath(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1100657188,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on Terminal section link with xpath \"//div[@class \u003d\u0027section-list-wrapper expanded fadein\u0027]//form[@id\u003d\u0027sectionlstform\u0027]//ul[@class\u003d\u0027section-list\u0027]/li[text()\u003d\u0027Config Section\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//div[@class \u003d\u0027section-list-wrapper expanded fadein\u0027]//form[@id\u003d\u0027sectionlstform\u0027]//ul[@class\u003d\u0027section-list\u0027]/li[text()\u003d\u0027Config Section\u0027]",
+                  "offset": 45
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickOnTerminalSectionLinkWithXpath(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1519316075,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on side section bar \"Currency Management\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Currency Management",
+                  "offset": 29
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickOnSideSectionBar(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 946119180,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on add  mark for add application version with xpath \"//div[@class\u003d\u0027round-btn f-right\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//div[@class\u003d\u0027round-btn f-right\u0027]",
+                  "offset": 61
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickOnAddMarkForAddApplicationVersionWithXpath(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1276093159,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter currency code \"CRN-04\" with id \"acurrencycode\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CRN-04",
+                  "offset": 23
+                },
+                {
+                  "val": "acurrencycode",
+                  "offset": 40
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterCurrencyCodeWithId(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1631169496,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter alpha code \"\" with id \"aalpha2code\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 20
+                },
+                {
+                  "val": "aalpha2code",
+                  "offset": 31
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterAlphaCodeWithId(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1261345412,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter currency descrption \"\" id \"adescription\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 29
+                },
+                {
+                  "val": "adescription",
+                  "offset": 35
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterCurrencyDescrptionId(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1067768700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter exponent \"\" with id \"aexponent\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 18
+                },
+                {
+                  "val": "aexponent",
+                  "offset": 29
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterExponentWithId(String,String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 228352576,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click enter button to add currency \"addbtn\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "addbtn",
+                  "offset": 38
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickEnterButtonToAddCurrency(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2388390483,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AndroidTMSdefs.InitializeTest()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Add Device model",
+        "description": "",
+        "id": "add-device-model;add-device-model;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 956952763,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to URL \"http://192.168.1.114:8085\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://192.168.1.114:8085",
+                  "offset": 19
+                }
+              ],
+              "location": "AndroidTMSdefs.iNavigateToURL(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1141385692,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter the username \"nirmal1\" with id of username \"userName\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nirmal1",
+                  "offset": 22
+                },
+                {
+                  "val": "userName",
+                  "offset": 52
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterTheUsernameWithIdOfUsername(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 949042329,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the password \"Password@123\" with id of password \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password@123",
+                  "offset": 22
+                },
+                {
+                  "val": "password",
+                  "offset": 57
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterThePasswordWithIdOfPassword(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 913386641,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click Login button with id \"//button[@class\u003d\u0027button\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//button[@class\u003d\u0027button\u0027]",
+                  "offset": 30
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickLoginButtonWithId(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1078215685,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on TMS on link \"//img[@src\u003d\u0027/assets/img/terminal_management-01.svg\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//img[@src\u003d\u0027/assets/img/terminal_management-01.svg\u0027]",
+                  "offset": 24
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickOnTMSOnLink(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6776870,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I get error message \"//div[@class\u003d\u0027msg-panel error-login-msg\u0027]//ul[@class\u003d\u0027errorMessage\u0027]\" testcase id \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//div[@class\u003d\u0027msg-panel error-login-msg\u0027]//ul[@class\u003d\u0027errorMessage\u0027]",
+                  "offset": 21
+                },
+                {
+                  "val": "1",
+                  "offset": 104
+                }
+              ],
+              "location": "AndroidTMSdefs.iGetErrorMessageTestcaseId(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3508573439,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on side section dropdwon bar with xpath \"//img[@src\u003d\u0027resources/assets/image/icons/drop_down.svg\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//img[@src\u003d\u0027resources/assets/image/icons/drop_down.svg\u0027]",
+                  "offset": 49
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickOnSideSectionDropdwonBarWithXpath(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1294609951,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on Terminal section link with xpath \"//div[@class \u003d\u0027section-list-wrapper expanded fadein\u0027]//form[@id\u003d\u0027sectionlstform\u0027]//ul[@class\u003d\u0027section-list\u0027]/li[text()\u003d\u0027Config Section\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//div[@class \u003d\u0027section-list-wrapper expanded fadein\u0027]//form[@id\u003d\u0027sectionlstform\u0027]//ul[@class\u003d\u0027section-list\u0027]/li[text()\u003d\u0027Config Section\u0027]",
+                  "offset": 45
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickOnTerminalSectionLinkWithXpath(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1592356592,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on side section bar \"Currency Management\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Currency Management",
+                  "offset": 29
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickOnSideSectionBar(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 961533495,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on add  mark for add application version with xpath \"//div[@class\u003d\u0027round-btn f-right\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//div[@class\u003d\u0027round-btn f-right\u0027]",
+                  "offset": 61
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickOnAddMarkForAddApplicationVersionWithXpath(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 677408733,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter currency code \"CRN-01\" with id \"acurrencycode\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CRN-01",
+                  "offset": 23
+                },
+                {
+                  "val": "acurrencycode",
+                  "offset": 40
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterCurrencyCodeWithId(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66814179,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter alpha code \"LKR\" with id \"aalpha2code\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "LKR",
+                  "offset": 20
+                },
+                {
+                  "val": "aalpha2code",
+                  "offset": 34
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterAlphaCodeWithId(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52475268,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter currency descrption \"\" id \"adescription\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 29
+                },
+                {
+                  "val": "adescription",
+                  "offset": 35
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterCurrencyDescrptionId(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82892780,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter exponent \"144\" with id \"aexponent\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "144",
+                  "offset": 18
+                },
+                {
+                  "val": "aexponent",
+                  "offset": 32
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterExponentWithId(String,String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68064634,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click enter button to add currency \"addbtn\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "addbtn",
+                  "offset": 38
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickEnterButtonToAddCurrency(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2291279106,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AndroidTMSdefs.InitializeTest()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Add Device model",
+        "description": "",
+        "id": "add-device-model;add-device-model;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 978637607,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to URL \"http://192.168.1.114:8085\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://192.168.1.114:8085",
+                  "offset": 19
+                }
+              ],
+              "location": "AndroidTMSdefs.iNavigateToURL(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1198905836,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter the username \"nirmal1\" with id of username \"userName\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nirmal1",
+                  "offset": 22
+                },
+                {
+                  "val": "userName",
+                  "offset": 52
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterTheUsernameWithIdOfUsername(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1102192746,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the password \"Password@123\" with id of password \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password@123",
+                  "offset": 22
+                },
+                {
+                  "val": "password",
+                  "offset": 57
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterThePasswordWithIdOfPassword(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 825513418,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click Login button with id \"//button[@class\u003d\u0027button\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//button[@class\u003d\u0027button\u0027]",
+                  "offset": 30
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickLoginButtonWithId(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 872691780,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on TMS on link \"//img[@src\u003d\u0027/assets/img/terminal_management-01.svg\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//img[@src\u003d\u0027/assets/img/terminal_management-01.svg\u0027]",
+                  "offset": 24
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickOnTMSOnLink(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7408085,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I get error message \"//div[@class\u003d\u0027msg-panel error-login-msg\u0027]//ul[@class\u003d\u0027errorMessage\u0027]\" testcase id \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//div[@class\u003d\u0027msg-panel error-login-msg\u0027]//ul[@class\u003d\u0027errorMessage\u0027]",
+                  "offset": 21
+                },
+                {
+                  "val": "1",
+                  "offset": 104
+                }
+              ],
+              "location": "AndroidTMSdefs.iGetErrorMessageTestcaseId(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3052254599,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on side section dropdwon bar with xpath \"//img[@src\u003d\u0027resources/assets/image/icons/drop_down.svg\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//img[@src\u003d\u0027resources/assets/image/icons/drop_down.svg\u0027]",
+                  "offset": 49
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickOnSideSectionDropdwonBarWithXpath(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1159376186,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on Terminal section link with xpath \"//div[@class \u003d\u0027section-list-wrapper expanded fadein\u0027]//form[@id\u003d\u0027sectionlstform\u0027]//ul[@class\u003d\u0027section-list\u0027]/li[text()\u003d\u0027Config Section\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//div[@class \u003d\u0027section-list-wrapper expanded fadein\u0027]//form[@id\u003d\u0027sectionlstform\u0027]//ul[@class\u003d\u0027section-list\u0027]/li[text()\u003d\u0027Config Section\u0027]",
+                  "offset": 45
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickOnTerminalSectionLinkWithXpath(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1439299402,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on side section bar \"Currency Management\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Currency Management",
+                  "offset": 29
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickOnSideSectionBar(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1037665654,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on add  mark for add application version with xpath \"//div[@class\u003d\u0027round-btn f-right\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//div[@class\u003d\u0027round-btn f-right\u0027]",
+                  "offset": 61
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickOnAddMarkForAddApplicationVersionWithXpath(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1210022811,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter currency code \"CRN-13\" with id \"acurrencycode\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CRN-13",
+                  "offset": 23
+                },
+                {
+                  "val": "acurrencycode",
+                  "offset": 40
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterCurrencyCodeWithId(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1145864926,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter alpha code \"MVR\" with id \"aalpha2code\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "MVR",
+                  "offset": 20
+                },
+                {
+                  "val": "aalpha2code",
+                  "offset": 34
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterAlphaCodeWithId(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1180613134,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter currency descrption \"MVR\" id \"adescription\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "MVR",
+                  "offset": 29
+                },
+                {
+                  "val": "adescription",
+                  "offset": 38
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterCurrencyDescrptionId(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1357153019,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter exponent \"\" with id \"aexponent\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 18
+                },
+                {
+                  "val": "aexponent",
+                  "offset": 29
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterExponentWithId(String,String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 819935402,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click enter button to add currency \"addbtn\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "addbtn",
+                  "offset": 38
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickEnterButtonToAddCurrency(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2262863865,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AndroidTMSdefs.InitializeTest()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Add Device model",
+        "description": "",
+        "id": "add-device-model;add-device-model;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 932473637,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to URL \"http://192.168.1.114:8085\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://192.168.1.114:8085",
+                  "offset": 19
+                }
+              ],
+              "location": "AndroidTMSdefs.iNavigateToURL(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1019476729,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter the username \"nirmal1\" with id of username \"userName\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nirmal1",
+                  "offset": 22
+                },
+                {
+                  "val": "userName",
+                  "offset": 52
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterTheUsernameWithIdOfUsername(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1112263112,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the password \"Password@123\" with id of password \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password@123",
+                  "offset": 22
+                },
+                {
+                  "val": "password",
+                  "offset": 57
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterThePasswordWithIdOfPassword(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 783255629,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click Login button with id \"//button[@class\u003d\u0027button\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//button[@class\u003d\u0027button\u0027]",
+                  "offset": 30
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickLoginButtonWithId(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1488560148,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on TMS on link \"//img[@src\u003d\u0027/assets/img/terminal_management-01.svg\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//img[@src\u003d\u0027/assets/img/terminal_management-01.svg\u0027]",
+                  "offset": 24
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickOnTMSOnLink(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7143796,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I get error message \"//div[@class\u003d\u0027msg-panel error-login-msg\u0027]//ul[@class\u003d\u0027errorMessage\u0027]\" testcase id \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//div[@class\u003d\u0027msg-panel error-login-msg\u0027]//ul[@class\u003d\u0027errorMessage\u0027]",
+                  "offset": 21
+                },
+                {
+                  "val": "1",
+                  "offset": 104
+                }
+              ],
+              "location": "AndroidTMSdefs.iGetErrorMessageTestcaseId(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3164488631,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on side section dropdwon bar with xpath \"//img[@src\u003d\u0027resources/assets/image/icons/drop_down.svg\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//img[@src\u003d\u0027resources/assets/image/icons/drop_down.svg\u0027]",
+                  "offset": 49
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickOnSideSectionDropdwonBarWithXpath(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1195042136,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on Terminal section link with xpath \"//div[@class \u003d\u0027section-list-wrapper expanded fadein\u0027]//form[@id\u003d\u0027sectionlstform\u0027]//ul[@class\u003d\u0027section-list\u0027]/li[text()\u003d\u0027Config Section\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//div[@class \u003d\u0027section-list-wrapper expanded fadein\u0027]//form[@id\u003d\u0027sectionlstform\u0027]//ul[@class\u003d\u0027section-list\u0027]/li[text()\u003d\u0027Config Section\u0027]",
+                  "offset": 45
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickOnTerminalSectionLinkWithXpath(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1294479660,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on side section bar \"Currency Management\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Currency Management",
+                  "offset": 29
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickOnSideSectionBar(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 892103221,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on add  mark for add application version with xpath \"//div[@class\u003d\u0027round-btn f-right\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//div[@class\u003d\u0027round-btn f-right\u0027]",
+                  "offset": 61
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickOnAddMarkForAddApplicationVersionWithXpath(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1412690851,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter currency code \"CRN-01\" with id \"acurrencycode\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CRN-01",
+                  "offset": 23
+                },
+                {
+                  "val": "acurrencycode",
+                  "offset": 40
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterCurrencyCodeWithId(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1220903436,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter alpha code \"LKR\" with id \"aalpha2code\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "LKR",
+                  "offset": 20
+                },
+                {
+                  "val": "aalpha2code",
+                  "offset": 34
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterAlphaCodeWithId(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2059714858,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter currency descrption \"LKR\" id \"adescription\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "LKR",
+                  "offset": 29
+                },
+                {
+                  "val": "adescription",
+                  "offset": 38
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterCurrencyDescrptionId(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1205160970,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter exponent \"144\" with id \"aexponent\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "144",
+                  "offset": 18
+                },
+                {
+                  "val": "aexponent",
+                  "offset": 32
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterExponentWithId(String,String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1145429861,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click enter button to add currency \"addbtn\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "addbtn",
+                  "offset": 38
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickEnterButtonToAddCurrency(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2633227647,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AndroidTMSdefs.InitializeTest()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Add Device model",
+        "description": "",
+        "id": "add-device-model;add-device-model;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 633837479,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to URL \"http://192.168.1.114:8085\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://192.168.1.114:8085",
+                  "offset": 19
+                }
+              ],
+              "location": "AndroidTMSdefs.iNavigateToURL(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 733176071,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter the username \"nirmal1\" with id of username \"userName\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nirmal1",
+                  "offset": 22
+                },
+                {
+                  "val": "userName",
+                  "offset": 52
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterTheUsernameWithIdOfUsername(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68154727,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the password \"Password@123\" with id of password \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password@123",
+                  "offset": 22
+                },
+                {
+                  "val": "password",
+                  "offset": 57
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterThePasswordWithIdOfPassword(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 583570324,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click Login button with id \"//button[@class\u003d\u0027button\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//button[@class\u003d\u0027button\u0027]",
+                  "offset": 30
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickLoginButtonWithId(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 128809280,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on TMS on link \"//img[@src\u003d\u0027/assets/img/terminal_management-01.svg\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//img[@src\u003d\u0027/assets/img/terminal_management-01.svg\u0027]",
+                  "offset": 24
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickOnTMSOnLink(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7021203,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I get error message \"//div[@class\u003d\u0027msg-panel error-login-msg\u0027]//ul[@class\u003d\u0027errorMessage\u0027]\" testcase id \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//div[@class\u003d\u0027msg-panel error-login-msg\u0027]//ul[@class\u003d\u0027errorMessage\u0027]",
+                  "offset": 21
+                },
+                {
+                  "val": "1",
+                  "offset": 104
+                }
+              ],
+              "location": "AndroidTMSdefs.iGetErrorMessageTestcaseId(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2912797906,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on side section dropdwon bar with xpath \"//img[@src\u003d\u0027resources/assets/image/icons/drop_down.svg\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//img[@src\u003d\u0027resources/assets/image/icons/drop_down.svg\u0027]",
+                  "offset": 49
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickOnSideSectionDropdwonBarWithXpath(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1151937595,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on Terminal section link with xpath \"//div[@class \u003d\u0027section-list-wrapper expanded fadein\u0027]//form[@id\u003d\u0027sectionlstform\u0027]//ul[@class\u003d\u0027section-list\u0027]/li[text()\u003d\u0027Config Section\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//div[@class \u003d\u0027section-list-wrapper expanded fadein\u0027]//form[@id\u003d\u0027sectionlstform\u0027]//ul[@class\u003d\u0027section-list\u0027]/li[text()\u003d\u0027Config Section\u0027]",
+                  "offset": 45
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickOnTerminalSectionLinkWithXpath(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2019875302,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on side section bar \"Currency Management\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Currency Management",
+                  "offset": 29
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickOnSideSectionBar(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1056944524,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on add  mark for add application version with xpath \"//div[@class\u003d\u0027round-btn f-right\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//div[@class\u003d\u0027round-btn f-right\u0027]",
+                  "offset": 61
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickOnAddMarkForAddApplicationVersionWithXpath(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1050971356,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter currency code \"\" with id \"acurrencycode\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 23
+                },
+                {
+                  "val": "acurrencycode",
+                  "offset": 34
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterCurrencyCodeWithId(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1018158419,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter alpha code \"USD\" with id \"aalpha2code\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "USD",
+                  "offset": 20
+                },
+                {
+                  "val": "aalpha2code",
+                  "offset": 34
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterAlphaCodeWithId(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1123978231,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter currency descrption \"USD\" id \"adescription\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "USD",
+                  "offset": 29
+                },
+                {
+                  "val": "adescription",
+                  "offset": 38
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterCurrencyDescrptionId(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 875711863,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter exponent \"4\" with id \"aexponent\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 18
+                },
+                {
+                  "val": "aexponent",
+                  "offset": 30
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterExponentWithId(String,String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1058754635,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click enter button to add currency \"addbtn\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "addbtn",
+                  "offset": 38
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickEnterButtonToAddCurrency(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2285035662,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AndroidTMSdefs.InitializeTest()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Add Device model",
+        "description": "",
+        "id": "add-device-model;add-device-model;;8",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1073534598,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to URL \"http://192.168.1.114:8085\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://192.168.1.114:8085",
+                  "offset": 19
+                }
+              ],
+              "location": "AndroidTMSdefs.iNavigateToURL(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1131385176,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter the username \"nirmal1\" with id of username \"userName\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nirmal1",
+                  "offset": 22
+                },
+                {
+                  "val": "userName",
+                  "offset": 52
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterTheUsernameWithIdOfUsername(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1148317657,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the password \"Password@123\" with id of password \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password@123",
+                  "offset": 22
+                },
+                {
+                  "val": "password",
+                  "offset": 57
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterThePasswordWithIdOfPassword(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1014797354,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click Login button with id \"//button[@class\u003d\u0027button\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//button[@class\u003d\u0027button\u0027]",
+                  "offset": 30
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickLoginButtonWithId(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1038813190,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on TMS on link \"//img[@src\u003d\u0027/assets/img/terminal_management-01.svg\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//img[@src\u003d\u0027/assets/img/terminal_management-01.svg\u0027]",
+                  "offset": 24
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickOnTMSOnLink(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10346915,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I get error message \"//div[@class\u003d\u0027msg-panel error-login-msg\u0027]//ul[@class\u003d\u0027errorMessage\u0027]\" testcase id \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//div[@class\u003d\u0027msg-panel error-login-msg\u0027]//ul[@class\u003d\u0027errorMessage\u0027]",
+                  "offset": 21
+                },
+                {
+                  "val": "1",
+                  "offset": 104
+                }
+              ],
+              "location": "AndroidTMSdefs.iGetErrorMessageTestcaseId(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3431234157,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on side section dropdwon bar with xpath \"//img[@src\u003d\u0027resources/assets/image/icons/drop_down.svg\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//img[@src\u003d\u0027resources/assets/image/icons/drop_down.svg\u0027]",
+                  "offset": 49
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickOnSideSectionDropdwonBarWithXpath(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1023822822,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on Terminal section link with xpath \"//div[@class \u003d\u0027section-list-wrapper expanded fadein\u0027]//form[@id\u003d\u0027sectionlstform\u0027]//ul[@class\u003d\u0027section-list\u0027]/li[text()\u003d\u0027Config Section\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//div[@class \u003d\u0027section-list-wrapper expanded fadein\u0027]//form[@id\u003d\u0027sectionlstform\u0027]//ul[@class\u003d\u0027section-list\u0027]/li[text()\u003d\u0027Config Section\u0027]",
+                  "offset": 45
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickOnTerminalSectionLinkWithXpath(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1399889780,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on side section bar \"Currency Management\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Currency Management",
+                  "offset": 29
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickOnSideSectionBar(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1043274463,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on add  mark for add application version with xpath \"//div[@class\u003d\u0027round-btn f-right\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//div[@class\u003d\u0027round-btn f-right\u0027]",
+                  "offset": 61
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickOnAddMarkForAddApplicationVersionWithXpath(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1141493745,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter currency code \"940\" with id \"acurrencycode\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "940",
+                  "offset": 23
+                },
+                {
+                  "val": "acurrencycode",
+                  "offset": 37
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterCurrencyCodeWithId(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1051768786,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter alpha code \"\" with id \"aalpha2code\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 20
+                },
+                {
+                  "val": "aalpha2code",
+                  "offset": 31
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterAlphaCodeWithId(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 848532823,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter currency descrption \"USD\" id \"adescription\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "USD",
+                  "offset": 29
+                },
+                {
+                  "val": "adescription",
+                  "offset": 38
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterCurrencyDescrptionId(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53086242,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter exponent \"4\" with id \"aexponent\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 18
+                },
+                {
+                  "val": "aexponent",
+                  "offset": 30
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterExponentWithId(String,String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71344446,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click enter button to add currency \"addbtn\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "addbtn",
+                  "offset": 38
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickEnterButtonToAddCurrency(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2268380870,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AndroidTMSdefs.InitializeTest()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Add Device model",
+        "description": "",
+        "id": "add-device-model;add-device-model;;9",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 868805272,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to URL \"http://192.168.1.114:8085\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://192.168.1.114:8085",
+                  "offset": 19
+                }
+              ],
+              "location": "AndroidTMSdefs.iNavigateToURL(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1098537741,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter the username \"nirmal1\" with id of username \"userName\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nirmal1",
+                  "offset": 22
+                },
+                {
+                  "val": "userName",
+                  "offset": 52
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterTheUsernameWithIdOfUsername(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1865636651,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the password \"Password@123\" with id of password \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password@123",
+                  "offset": 22
+                },
+                {
+                  "val": "password",
+                  "offset": 57
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterThePasswordWithIdOfPassword(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1089669935,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click Login button with id \"//button[@class\u003d\u0027button\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//button[@class\u003d\u0027button\u0027]",
+                  "offset": 30
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickLoginButtonWithId(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1278115386,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on TMS on link \"//img[@src\u003d\u0027/assets/img/terminal_management-01.svg\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//img[@src\u003d\u0027/assets/img/terminal_management-01.svg\u0027]",
+                  "offset": 24
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickOnTMSOnLink(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6790555,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I get error message \"//div[@class\u003d\u0027msg-panel error-login-msg\u0027]//ul[@class\u003d\u0027errorMessage\u0027]\" testcase id \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//div[@class\u003d\u0027msg-panel error-login-msg\u0027]//ul[@class\u003d\u0027errorMessage\u0027]",
+                  "offset": 21
+                },
+                {
+                  "val": "1",
+                  "offset": 104
+                }
+              ],
+              "location": "AndroidTMSdefs.iGetErrorMessageTestcaseId(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2112772019,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on side section dropdwon bar with xpath \"//img[@src\u003d\u0027resources/assets/image/icons/drop_down.svg\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//img[@src\u003d\u0027resources/assets/image/icons/drop_down.svg\u0027]",
+                  "offset": 49
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickOnSideSectionDropdwonBarWithXpath(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1231043082,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on Terminal section link with xpath \"//div[@class \u003d\u0027section-list-wrapper expanded fadein\u0027]//form[@id\u003d\u0027sectionlstform\u0027]//ul[@class\u003d\u0027section-list\u0027]/li[text()\u003d\u0027Config Section\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//div[@class \u003d\u0027section-list-wrapper expanded fadein\u0027]//form[@id\u003d\u0027sectionlstform\u0027]//ul[@class\u003d\u0027section-list\u0027]/li[text()\u003d\u0027Config Section\u0027]",
+                  "offset": 45
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickOnTerminalSectionLinkWithXpath(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1667800516,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on side section bar \"Currency Management\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Currency Management",
+                  "offset": 29
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickOnSideSectionBar(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 848821347,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on add  mark for add application version with xpath \"//div[@class\u003d\u0027round-btn f-right\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//div[@class\u003d\u0027round-btn f-right\u0027]",
+                  "offset": 61
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickOnAddMarkForAddApplicationVersionWithXpath(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1083519719,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter currency code \"940\" with id \"acurrencycode\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "940",
+                  "offset": 23
+                },
+                {
+                  "val": "acurrencycode",
+                  "offset": 37
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterCurrencyCodeWithId(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 940521776,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter alpha code \"USD\" with id \"aalpha2code\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "USD",
+                  "offset": 20
+                },
+                {
+                  "val": "aalpha2code",
+                  "offset": 34
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterAlphaCodeWithId(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1100906367,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter currency descrption \"\" id \"adescription\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 29
+                },
+                {
+                  "val": "adescription",
+                  "offset": 35
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterCurrencyDescrptionId(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 954908299,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter exponent \"4\" with id \"aexponent\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 18
+                },
+                {
+                  "val": "aexponent",
+                  "offset": 30
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterExponentWithId(String,String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1161845738,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click enter button to add currency \"addbtn\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "addbtn",
+                  "offset": 38
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickEnterButtonToAddCurrency(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2288196301,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AndroidTMSdefs.InitializeTest()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Add Device model",
+        "description": "",
+        "id": "add-device-model;add-device-model;;10",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 716915860,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to URL \"http://192.168.1.114:8085\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://192.168.1.114:8085",
+                  "offset": 19
+                }
+              ],
+              "location": "AndroidTMSdefs.iNavigateToURL(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1006451854,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter the username \"nirmal1\" with id of username \"userName\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nirmal1",
+                  "offset": 22
+                },
+                {
+                  "val": "userName",
+                  "offset": 52
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterTheUsernameWithIdOfUsername(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1084768750,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the password \"Password@123\" with id of password \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Password@123",
+                  "offset": 22
+                },
+                {
+                  "val": "password",
+                  "offset": 57
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterThePasswordWithIdOfPassword(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 855128939,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click Login button with id \"//button[@class\u003d\u0027button\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//button[@class\u003d\u0027button\u0027]",
+                  "offset": 30
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickLoginButtonWithId(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 956684483,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on TMS on link \"//img[@src\u003d\u0027/assets/img/terminal_management-01.svg\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//img[@src\u003d\u0027/assets/img/terminal_management-01.svg\u0027]",
+                  "offset": 24
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickOnTMSOnLink(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6627191,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I get error message \"//div[@class\u003d\u0027msg-panel error-login-msg\u0027]//ul[@class\u003d\u0027errorMessage\u0027]\" testcase id \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//div[@class\u003d\u0027msg-panel error-login-msg\u0027]//ul[@class\u003d\u0027errorMessage\u0027]",
+                  "offset": 21
+                },
+                {
+                  "val": "1",
+                  "offset": 104
+                }
+              ],
+              "location": "AndroidTMSdefs.iGetErrorMessageTestcaseId(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2990453936,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on side section dropdwon bar with xpath \"//img[@src\u003d\u0027resources/assets/image/icons/drop_down.svg\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//img[@src\u003d\u0027resources/assets/image/icons/drop_down.svg\u0027]",
+                  "offset": 49
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickOnSideSectionDropdwonBarWithXpath(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1200679170,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on Terminal section link with xpath \"//div[@class \u003d\u0027section-list-wrapper expanded fadein\u0027]//form[@id\u003d\u0027sectionlstform\u0027]//ul[@class\u003d\u0027section-list\u0027]/li[text()\u003d\u0027Config Section\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//div[@class \u003d\u0027section-list-wrapper expanded fadein\u0027]//form[@id\u003d\u0027sectionlstform\u0027]//ul[@class\u003d\u0027section-list\u0027]/li[text()\u003d\u0027Config Section\u0027]",
+                  "offset": 45
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickOnTerminalSectionLinkWithXpath(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1506390414,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on side section bar \"Currency Management\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Currency Management",
+                  "offset": 29
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickOnSideSectionBar(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1112500032,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on add  mark for add application version with xpath \"//div[@class\u003d\u0027round-btn f-right\u0027]\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "//div[@class\u003d\u0027round-btn f-right\u0027]",
+                  "offset": 61
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickOnAddMarkForAddApplicationVersionWithXpath(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1149235685,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter currency code \"973\" with id \"acurrencycode\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "973",
+                  "offset": 23
+                },
+                {
+                  "val": "acurrencycode",
+                  "offset": 37
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterCurrencyCodeWithId(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1107486517,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter alpha code \"AOA\" with id \"aalpha2code\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AOA",
+                  "offset": 20
+                },
+                {
+                  "val": "aalpha2code",
+                  "offset": 34
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterAlphaCodeWithId(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1301650825,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter currency descrption \"AOA\" id \"adescription\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AOA",
+                  "offset": 29
+                },
+                {
+                  "val": "adescription",
+                  "offset": 38
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterCurrencyDescrptionId(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1339666585,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter exponent \"\" with id \"aexponent\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 18
+                },
+                {
+                  "val": "aexponent",
+                  "offset": 29
+                }
+              ],
+              "location": "AndroidTMSdefs.iEnterExponentWithId(String,String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 965888994,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click enter button to add currency \"addbtn\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "addbtn",
+                  "offset": 38
+                }
+              ],
+              "location": "AndroidTMSdefs.iClickEnterButtonToAddCurrency(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Add Device model",
+    "description": "",
+    "id": "add-device-model",
+    "keyword": "Feature",
+    "uri": "CurrencyManagement.feature"
+  }
+]

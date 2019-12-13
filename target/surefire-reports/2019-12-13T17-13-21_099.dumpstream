@@ -1,0 +1,4 @@
+# Created at 2019-12-13T17:13:21.806
+Boot Manifest-JAR contains absolute paths in classpath 'G:\QA Project\Android Hub\Cucumber_Automation\Android-TMS-Automation\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
